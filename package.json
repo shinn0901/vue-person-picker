@@ -1,0 +1,82 @@
+{
+  "name": "@shinn0901/vue-person-picker",
+  "version": "0.1.0",
+  "private": false,
+  "main": "./dist/person-picker.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinn0901/vue-person-picker.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-npm": "vue-cli-service build --target lib --name vue-person-picker ./lib/person-picker.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vant": "^2.0.8",
+    "vue": "^2.6.10",
+    "vue-person-picker": "file:dist"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-px-to-viewport": {
+        "unitToConvert": "px",
+        "viewportWidth": 375,
+        "unitPrecision": 5,
+        "propList": [
+          "*"
+        ],
+        "viewportUnit": "vw",
+        "fontViewportUnit": "vw",
+        "selectorBlackList": [],
+        "minPixelValue": 1,
+        "mediaQuery": false,
+        "replace": true,
+        "exclude": [],
+        "landscape": false,
+        "landscapeUnit": "vw",
+        "landscapeWidth": 667
+      },
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

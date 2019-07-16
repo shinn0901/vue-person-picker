@@ -1,0 +1,46 @@
+{
+    "parent": "",
+    "category": "organization",
+    "name": "公司名称",
+    "description": "测试集团有限公司",
+    "id": "BJXHDQ6BNSZGBTQOBOXQPPAJ5LKXJ15Y",
+    "children": [{
+            "category": "organization",
+            "name": "技术部",
+            "description": "测试集团有限公司-技术部",
+            "id": "VBWMTKN56YHY8QSUZEMFD4Q08AYWKRTC",
+            "userList": [{
+                    "category": "organization",
+                    "name": "张三",
+                    "description": "高级工程师",
+                    "id": "4DWHU7M1U3HSK6W960JPL71D0IW6H4O7"
+                },
+                {
+                    "category": "organization",
+                    "name": "李四",
+                    "description": "中级工程师",
+                    "id": "CS4F1FDDGQSLEZX7ONFQ3AJJQHUXW7AC"
+                }
+            ]
+        },
+        {
+            "category": "organization",
+            "name": "销售部",
+            "description": "测试集团有限公司-销售部",
+            "id": "OYP6VC6WKQOIIUYNHXH962E2Q6ADDM4K",
+            "userList": [{
+                    "category": "organization",
+                    "name": "王五",
+                    "description": "销售主管",
+                    "id": "LQO25S4ZKWAQHVFF72111FKD1QOI9HYC"
+                },
+                {
+                    "category": "organization",
+                    "name": "赵六",
+                    "description": "销售员",
+                    "id": "SP8QKAYQW444CZ64E9FX3V1YHPS76IUD"
+                }
+            ]
+        }
+    ]
+}
