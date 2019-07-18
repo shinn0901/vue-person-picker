@@ -1,8 +1,8 @@
 {
   "name": "@shinn0901/vue-person-picker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
-  "main": "./dist/person-picker.common.js",
+  "main": "./dist/vue-person-picker.common.js",
   "files": [
     "dist/*",
     "src/*",
@@ -20,11 +20,7 @@
     "lint": "vue-cli-service lint",
     "build-npm": "vue-cli-service build --target lib --name vue-person-picker ./lib/person-picker.js"
   },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vant": "^2.0.8",
-    "vue": "^2.6.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
