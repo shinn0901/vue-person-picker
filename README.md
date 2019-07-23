@@ -9,6 +9,7 @@ npm install @shinn0901/vue-person-picker --save
 ## 使用
 ```js
 <template>
+    <button @click="show=true" />
     <person-picker
         :person="personData"
         :keys="keys"
