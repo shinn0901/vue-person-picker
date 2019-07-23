@@ -1,8 +1,9 @@
 {
   "name": "@shinn0901/vue-person-picker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "main": "./dist/vue-person-picker.common.js",
+  "homepage": "https://github.com/shinn0901/vue-person-picker",
   "files": [
     "dist/*"
   ],
